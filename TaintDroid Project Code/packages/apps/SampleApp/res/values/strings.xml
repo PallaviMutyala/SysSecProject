@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Sample Application</string>
+	<string name="app_description">I don\'t want to describe it</string>
+	<string name="NIMEI">Normal IMEI</string>
+	<string name="NGPS">Normal GPS</string>
+	<string name="GPS">GPS</string>
+	<string name="IMEI">IMEI</string>
+	<string name="Application">Application: </string>
+	<string name="Dest">Destination: </string>
+	<string name="Taint">Taint: </string>
+	<string name="Timestamp">Timestamp: </string>
+	<string name="Data">Data (first 100 bytes): </string>
+	
+</resources>
