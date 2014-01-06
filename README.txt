@@ -8,7 +8,7 @@ List of files modified:
 ./libcore/luni/src/main/java/libcore/io/Posix.java
 
 All the 3 files have exception code added to the functions at respective sink points. 
-_______________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________
 
 ./libcore/dalvik/src/main/java/dalvik/system/Taint.java
 
@@ -23,14 +23,13 @@ public static final int TAINT_NETWORK  	= 0x00010000;
 public static final int TAINT_MESSAGE   = 0x00020000;
 public static final int TAINT_POSIX_IO  = 0x00040000;
 public static final int TAINT_FOREVER   = 0x00000001;
-_______________________________________________________________________________________________________________________________________________________
-
+_____________________________________________________________________________________________
 ./dalvik/vm/native/dalvik_system_Taint.cpp
 The corresponding native methods to the methods in Taint.java are added in dalvik_system_Taint.cpp.  
 
 static void Dalvik_dalvik_system_Taint_RemoveTaintDouble()
 static void Dalvik_dalvik_system_Taint_removeTaintString()
-_______________________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________
 
 List of files newly added:
 ========================= 
@@ -38,12 +37,12 @@ Below are the 2 class files added. This package is imported in the sample Applic
 
 ./libcore/dalvik/src/main/java/dalvik/system/Declassifier.java
 ./libcore/dalvik/src/main/java/dalvik/system/ReferenceMonitor.java
-_______________________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________
 
 Sample application:
 =================== 
 Entire test application is added in  ./packages/apps/SampleApp folder
-_______________________________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________
 
 Steps to run the system:
 ========================
